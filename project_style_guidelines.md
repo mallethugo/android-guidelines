@@ -915,7 +915,7 @@ Don’t leave author comments, these aren’t useful and provide no real meaning
       
 ###2.2.24 Sectioning code
 
-#### 2.2.24.1 Java code
+#### 2.2.24.1.1 Java code
 
 If creating ‘sections’ for code, this should be done using the following approach, like this:
 
@@ -944,6 +944,16 @@ Not like this:
     public void anotherMethod() { }
 
 This makes sectioned methods easier to located in a class.
+
+#### 2.2.24.1.2 Java code
+
+Instead use section you can use region to group your code like this
+
+// region name_of_region
+
+your code here
+
+// endregion
 
 #### 2.2.24.2 Strings file
 
